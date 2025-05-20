@@ -16,7 +16,7 @@ import java.util.ArrayList;
  *
  * @author RC_Student_lab
  */
-public class JSONHelper {
+public class JSONHelper { //ChatGPT assisted
     private static final String FILE_PATH = "stored_messages.json";
     public static void storeMessage(Message message){
         try{
