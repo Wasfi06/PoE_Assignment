@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>ATK Arena-Enquiry</title>
+        <meta name="description" content="ATK Arena is a premier Esports venue offering tournaments, facilities and community events.">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <a class="logo" href="index.html">ATK Arena</a>
+                <nav aria-label="Primary">
+                    <ul>
+                        <li>
+                            <a href="index.html" aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="services.html">Facilities</a>
+                        </li>
+                        <li>
+                            <a href="enquiry.html">Enquiry</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <h1>Enquiry Form</h1>
+            <form action="#" method="psot">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" type="text" required>
+
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" required>
+
+                    <label for="phone">Phone</label>
+                    <input id="phone" name="phone" type="tel">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Enquiry Type</legend>
+                    <label for="type">Select an option</label>
+                    <select id="type" name="type" required>
+
+                        <option value="">--please choose--</option>
+                        <option value="Booking">PC/ConsoleBooking</option>
+                        <option value="tournament">Tournament Registration</option>
+                        <option value="sponsorship">Sponsorship/Partnership</option>
+                        <option value="other">Other</option>
+                        </select>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Tell us more..." required></textarea>
+                </fieldset>
+
+                <button type="submit">Send Enquiry</button>
+                </form>
+        </main>
+
+        <footer>
+            <div class="container">
+                <p>&copy; <span id="year"></span>ATK Arena. All rights reserved.</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+    </body>
+</html>
