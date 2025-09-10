@@ -4,7 +4,7 @@ import org.example.Series;
 import org.example.SeriesModel;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
-
+//ChatGBT assisted with this JUnit Test
 public class SeriesTest {
     private Series series;
 
@@ -60,3 +60,4 @@ public class SeriesTest {
         assertFalse(series.isValidAge("abc"));  // not a number
     }
 }
+
